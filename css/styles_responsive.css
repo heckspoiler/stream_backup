@@ -60,7 +60,7 @@
         background-color: rgba(255, 255, 255, 0.6);
         backdrop-filter: blur(100px);
         border-radius: calc(1rem + 1vw);
-        scale: 0.55;
+        scale: 0.35;
         border: 2px solid rgb(46, 46, 46);
         transition: background 0.2s linear;
 

@@ -170,7 +170,7 @@ const saturday = [
   },
   {
     id: 7,
-    name: 'Mokuna (Somantic Rituals)',
+    name: 'Mukuna (Somatic Rituals)',
     startTime: '18:00',
     endTime: '19:00',
   },
@@ -227,7 +227,7 @@ const sunday = [
   },
   {
     id: 4,
-    name: 'Wettstein & Celine',
+    name: 'Celine & Leiv',
     startTime: '15:00',
     endTime: '16:00',
   },

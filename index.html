@@ -92,11 +92,16 @@
                 <p class="copied-successfully twint-landing-copied">See you!</p>
             </span>
         </div>
-
+        <!-- 
         <iframe class="youtube-player" width="560" height="315"
             src="https://youtube.com/embed/8tiAeUqWVwY?feature=share" title="Twitch video player" frameborder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            allowfullscreen></iframe>
+            allowfullscreen>
+        </iframe> -->
+
+        <div id="twitch-embed" class="youtube-player"></div>
+
+
 
         <div class="image-container-landing container-iban-landing">
             <img src="./public/img/donate_logos/iban.png" alt="iban image" class="iban-landing-img" role="button"
@@ -188,5 +193,14 @@
         </div>
     </footer>
 </body>
+<!-- Load the Twitch embed script -->
+<script src="https://player.twitch.tv/js/embed/v1.js"></script>
+
+<!-- Create a Twitch.Player object. This will render within the placeholder div -->
+<script type="text/javascript">
+    new Twitch.Player("twitch-embed", {
+        channel: "solistream_"
+    });
+</script>
 
 </html>

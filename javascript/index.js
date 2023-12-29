@@ -31,9 +31,11 @@ function getCurrentTimeZurich() {
   return zurichTime;
 }
 
-const walidURL = 'https://youtube.com/embed/8tiAeUqWVwY?feature=share';
+// const walidURL =
+//   'https://player.twitch.tv/?channel=solistream_&parent=www.example.com';
 
-const streamURL = 'https://youtube.com/embed/8tiAeUqWVwY?feature=share';
+// const streamURL =
+//   'https://player.twitch.tv/?channel=solistream_&parent=www.example.com';
 
 // timeslot automation function
 
@@ -91,20 +93,20 @@ const timeslotAutomation = () => {
 
 // walid function
 
-const walidVideoShow = () => {
-  const currentTime = getCurrentTimeZurich();
-  const currentDay = currentTime.getDay();
-  const currentHour = currentTime.getHours();
-  const videoFrame = document.querySelector('.youtube-player');
+// const walidVideoShow = () => {
+//   const currentTime = getCurrentTimeZurich();
+//   const currentDay = currentTime.getDay();
+//   const currentHour = currentTime.getHours();
+//   const videoFrame = document.querySelector('.youtube-player');
 
-  if (currentDay === 6 && currentHour === 12) {
-    videoFrame.src = walidURL;
-  } else {
-    videoFrame.src = streamURL;
-  }
-};
+//   if (currentDay === 6 && currentHour === 12) {
+//     videoFrame.src = walidURL;
+//   } else {
+//     videoFrame.src = streamURL;
+//   }
+// };
 
-setTimeout(walidVideoShow, 3000);
+// setTimeout(walidVideoShow, 3000);
 
 setTimeout(timeslotAutomation, 3000);
 
