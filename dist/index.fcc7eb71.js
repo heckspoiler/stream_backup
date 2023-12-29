@@ -1,0 +1,2 @@
+const e=document.querySelector(".remove-background-button"),n=document.querySelector(".footer-right p");document.querySelector(".threecontainer");let t=0;e.addEventListener("click",()=>{0===t?(n.innerHTML="Let me see that again!",e.innerHTML="Activate Movement",window.isThreeJsRenderingEnabled=!1,t=1):(n.innerHTML="Is your device acting up?",e.innerHTML="Disable Background",window.restartRendering(),t=0)});
+//# sourceMappingURL=index.fcc7eb71.js.map
