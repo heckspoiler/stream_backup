@@ -603,10 +603,6 @@ function getCurrentTimeZurich() {
     const zurichTime = new Date(zurichTimeStr);
     return zurichTime;
 }
-// const walidURL =
-//   'https://player.twitch.tv/?channel=solistream_&parent=www.example.com';
-// const streamURL =
-//   'https://player.twitch.tv/?channel=solistream_&parent=www.example.com';
 // timeslot automation function
 const timeslotAutomation = ()=>{
     const currentTime = getCurrentTimeZurich();
@@ -644,19 +640,6 @@ const timeslotAutomation = ()=>{
         });
     }
 };
-// walid function
-// const walidVideoShow = () => {
-//   const currentTime = getCurrentTimeZurich();
-//   const currentDay = currentTime.getDay();
-//   const currentHour = currentTime.getHours();
-//   const videoFrame = document.querySelector('.youtube-player');
-//   if (currentDay === 6 && currentHour === 12) {
-//     videoFrame.src = walidURL;
-//   } else {
-//     videoFrame.src = streamURL;
-//   }
-// };
-// setTimeout(walidVideoShow, 3000);
 setTimeout(timeslotAutomation, 3000);
 setInterval(timeslotAutomation, 120000);
 
