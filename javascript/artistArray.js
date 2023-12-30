@@ -133,13 +133,13 @@ const friday = [
 const saturday = [
   {
     id: 1,
-    name: 'WEB',
+    name: 'Nicola Kazimir',
     startTime: '12:00',
     endTime: '13:00',
   },
   {
     id: 2,
-    name: 'Karaba',
+    name: 'Karaba (Okra Collective)',
     startTime: '13:00',
     endTime: '14:00',
   },
@@ -151,7 +151,7 @@ const saturday = [
   },
   {
     id: 4,
-    name: 'Manaa',
+    name: 'Mânaa',
     startTime: '15:00',
     endTime: '16:00',
   },
