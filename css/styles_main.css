@@ -288,20 +288,32 @@ body {
     top: 50%;
     display: flex;
     transform: translate(-50%, -50%);
-    width: 100%;
-    height: 100%;
+    width: 100vw;
+    height: 100vh;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-between;
 
+}
+
+.twitch-wrapper {
+    background-color: red;
+    height: auto;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .youtube-player {
     scale: 2;
-    width: calc(10rem + 10vw);
-    height: calc(10rem + 10vh);
+    height: 100%;
+    width: 100%;
+    /* width: calc(10rem + 10vw);
+    height: calc(10rem + 10vh); */
     display: flex;
     align-items: center;
     justify-content: center;
+
 }
 
 /* .stream-video iframe {
@@ -310,11 +322,12 @@ body {
 } */
 
 .image-container-landing {
+
     position: relative;
     background-color: rgba(255, 255, 255, 0.6);
     backdrop-filter: blur(100px);
     border-radius: calc(2rem + 6vw);
-    scale: 0.23;
+    scale: 0.2;
     border: 2px solid rgb(46, 46, 46);
     transition: background 0.2s linear;
 }
@@ -533,7 +546,7 @@ body {
 
 footer {
     position: absolute;
-    top: 85vh;
+    bottom: 5vh;
     width: 100%;
     display: flex;
     align-items: flex-end;
