@@ -8,6 +8,7 @@
         height: 100vh;
         max-width: 100vw;
         overflow: hidden !important;
+
     }
 
     .cube-container {
@@ -144,6 +145,7 @@
         text-transform: uppercase;
 
     }
+
 
     .reddot {
         height: calc(0.6vw + 0.3rem);
@@ -356,9 +358,7 @@
         height: 70% !important;
         flex-direction: row;
         justify-content: space-evenly;
-
     }
-
 
 
     .image-container-landing {
@@ -501,6 +501,7 @@
         justify-content: space-between;
         padding: 0 3vw 10vh 3vw;
         height: 6.5rem;
+
     }
 
     .footer-right {
@@ -653,6 +654,8 @@ font-family: 'Roboto', sans-serif; */
         width: 100vw;
     }
 
+
+
     .stream-video {
         position: absolute;
         left: 50%;
@@ -662,26 +665,27 @@ font-family: 'Roboto', sans-serif; */
         width: 100vw;
         height: 100vh !important;
         flex-direction: column;
-        background-color: red;
-        justify-content: space-evenly;
+        justify-content: center;
+        gap: 10vh;
     }
 
-
-    .stream-video iframe {
-        scale: 0.65 !important;
-    }
 
     .image-container-landing {
         position: relative;
         background-color: rgba(255, 255, 255, 0.6);
         backdrop-filter: blur(100px);
         border-radius: calc(2rem + 6vw);
-        scale: 0.23;
+        scale: 0.1;
         border: 2px solid rgb(46, 46, 46);
         transition: background 0.2s linear;
     }
 
+    .image-container-landing img {
 
+        padding: 10px;
+        max-height: 15vw;
+        max-width: 15vw;
+    }
 
 
     #marquee-container {
@@ -834,7 +838,8 @@ font-family: 'Roboto', sans-serif; */
         justify-content: space-between;
         padding: 0 3vw 6vh 3vw;
         height: 6.5rem;
-        background-color: #fff;
+        top: 75vh !important;
+        bottom: auto;
 
     }
 

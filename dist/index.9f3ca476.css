@@ -527,9 +527,9 @@
   }
 
   .stream-video {
-    background-color: red;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: center;
+    gap: 10vh;
     width: 100vw;
     display: flex;
     position: absolute;
@@ -537,10 +537,6 @@
     left: 50%;
     transform: translate(-50%, -50%);
     height: 100vh !important;
-  }
-
-  .stream-video iframe {
-    scale: .65 !important;
   }
 
   #marquee-container {
@@ -677,7 +673,6 @@
   }
 
   footer {
-    background-color: #fff;
     justify-content: space-between;
     align-items: stretch;
     width: 100%;
@@ -685,6 +680,8 @@
     padding: 0 3vw 6vh;
     display: flex;
     position: relative;
+    bottom: auto;
+    top: 75vh !important;
   }
 
   .footer-right, .footer-left {

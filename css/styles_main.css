@@ -296,7 +296,7 @@ body {
 }
 
 .twitch-wrapper {
-    background-color: red;
+    background-color: transparent;
     height: auto;
     width: 100%;
     display: flex;
